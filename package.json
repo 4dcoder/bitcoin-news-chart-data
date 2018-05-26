@@ -1,0 +1,27 @@
+{
+  "name": "coin-news",
+  "version": "1.0.0",
+  "description": "cryto currency news crawler",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "express": "^4.15.4",
+    "feedparser": "^2.2.1",
+    "firebase-admin": "^5.2.1",
+    "google-trends-api": "^4.3.0",
+    "jsdom": "^11.2.0",
+    "lodash": "^4.17.4",
+    "osmosis": "^1.1.4",
+    "request": "^2.81.0",
+    "striptags": "^3.1.0"
+  },
+  "engines": {
+    "node": "6.1.0"
+  }
+}
